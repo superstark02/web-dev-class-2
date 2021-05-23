@@ -10,11 +10,12 @@ export default function MyAppBar() {
   );
 }
 
-export function Footer(){
+export function Footer(data){
+
     return (
         <div className="app-bar">
           <h1>
-              Footer
+              {data.title}
           </h1>
         </div>
       );

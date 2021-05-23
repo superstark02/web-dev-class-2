@@ -1,0 +1,13 @@
+.panel{
+    width: 300px;
+    height: 100vh;
+    background-color: grey;
+    overflow: scroll;
+}
+
+.d1{
+    margin: 10px;
+    width: 200%;
+    height: 60vh;
+    background-color: black;
+}
