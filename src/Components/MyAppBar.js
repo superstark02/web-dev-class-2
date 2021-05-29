@@ -1,25 +1,24 @@
 import './MyAppBar.css';
 
-export default function MyAppBar() {
+export default function MyAppBar(props) {
   return (
     <div className="app-bar">
       <h1>
-          App Bar
+          {props.title}
       </h1>
     </div>
   );
 }
 
-export function Footer(data){
-
-    return (
-        <div className="app-bar">
-          <h1>
-              {data.title}
-          </h1>
-        </div>
-      );
+export function Footer(){
+  return(
+    <div>
+      Footer
+    </div>
+  )
 }
+
+
 
 
 
